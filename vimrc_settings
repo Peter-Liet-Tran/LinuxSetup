@@ -1,0 +1,50 @@
+syntax on
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+
+Plugin 'Xuyuanp/nerdtree-git-plugin' " https://github.com/Xuyuanp/nerdtree-git-plugin
+Plugin 'Yggdroot/indentLine' " https://www.github.com/Yggdroot/indentLine
+Plugin 'alvan/vim-closetag' " https://www.github.com/alvan/vim-closetag
+Plugin 'christoomey/vim-system-copy' " https://www.github.com/christoomey/vim-system-copy
+Plugin 'christoomey/vim-titlecase' " https://www.github.com/christoomey/vim-titlecase
+Plugin 'elzr/vim-json' " https://github.com/elzr/vim-json
+Plugin 'godlygeek/tabular' " https://www.github.com/godlygeek/tabular
+Plugin 'jiangmiao/auto-pairs' " https://www.github.com/jiangmiao/auto-pairs
+Plugin 'kien/ctrlp.vim' " https://www.github.com/kien/ctrlp.vim
+"Plugin 'neoclide/coc.nvim', {'branch': 'release'} " https://github.com/neoclide/coc.nvim
+Plugin 'neomake/neomake' " https://www.github.com/neomake/neomake
+Plugin 'nvie/vim-flake8' " https://www.github.com/nvie/vim-flake8
+Plugin 'scrooloose/nerdtree' " https://www.github.com/scrooloose/nerdtree
+Plugin 'tiagofumo/vim-nerdtree-syntax-highlight' " https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
+Plugin 'tmhedberg/SimpylFold' " https://www.github.com/tmhedberg/SimpylFold
+Plugin 'tpope/vim-commentary' " https://www.github.com/tpope/vim-commentary
+Plugin 'tpope/vim-fugitive' " https://www.github.com/tpope/vim-fugitive
+Plugin 'tpope/vim-surround' " https://www.github.com/tpope/vim-surround
+Plugin 'christoomey/vim-tmux-navigator' " https://github.com/christoomey/vim-tmux-navigator
+
+"Theme
+Plugin 'ayu-theme/ayu-vim' " https://www.github.com/ayu-theme/ayu-vim
+Plugin 'dracula/vim', { 'as': 'dracula' } " https://www.github.com/dracula/vim
+Plugin 'vim-airline/vim-airline' " https://www.github.com/vim-airline/vim-airline
+Plugin 'vim-airline/vim-airline-themes' " https://www.github.com/vim-airline/vim-airline-themes
+Plugin 'tomasr/molokai' " https://github.com/tomasr/molokai
+Plugin 'morhetz/gruvbox' " https://github.com/morhetz/gruvbox
+
+" Syntax Highlighting
+Plugin 'pangloss/vim-javascript' " https://github.com/pangloss/vim-javascript
+Plugin 'vim-python/python-syntax' " https://github.com/vim-python/python-syntax
+Plugin 'MaxMEllon/vim-jsx-pretty' " https://github.com/MaxMEllon/vim-jsx-pretty
+
+
